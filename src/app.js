@@ -1,5 +1,10 @@
-const express = require("express")
-const app = express()
+const express = require("express");
+const app = express();
+
+
+const games = require("./route/gamesRoute");
+
+app.use("/games", games);
 
 
 
@@ -12,7 +17,4 @@ const app = express()
 
 
 
-
-
-
-module.exports = app
+module.exports = app;

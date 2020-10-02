@@ -1,9 +1,9 @@
-const app = require("./src/app")
+const app = require("./src/app");
 
-const PORT = 3001
+const PORT = 3001;
 
 app.listen(PORT, function(){
-    console.log(`Porta ${PORT} funcionando`)
+    console.log(`Porta ${PORT} funcionando`);
 })
 
 
