@@ -22,7 +22,7 @@ const listaGamesContrato = games.map(item => {
      console.log(request.url);
      response.status(200).send(listaGamesContrato);
  }
-//tentei adicionar essa lista na primeira lista que criei.
+//tentei adicionar essa lista na primeira lista que criei.(não consegui)
 //  const listaGamesPorId = games.map(item => {
 //      const gameId = {
 //          data_lancamento: games.first_release_date,
